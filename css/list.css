@@ -1,0 +1,202 @@
+.second_kill{
+    padding: 2px 0 0 14px;
+    border-left: 1px solid #c81623;
+    height: 26px;
+}
+
+.fl{
+    float: left;
+}
+
+.sk_list ul li{
+    float: left;
+}
+
+.sk_list ul li a{
+    display: block;
+    padding: 0 29px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    height: 46px;
+    line-height: 46px;
+}
+
+.sk_list ul li:first-child a{
+    background: #c81623;
+    color: #fff;
+}
+
+.sk_container{
+    margin-bottom: 15px;
+    background-color: #f6f6f6;
+}
+
+.sk_hd{
+    background: url(../images/sk_bg.png) no-repeat;
+    height: 145px;
+    text-align: center;
+}
+
+.sk_bd{
+    column-count: 4;
+    column-gap: 20px;
+    overflow: hidden;
+    margin: 0 15px;
+}
+
+.sk_bd ul li{
+    width: 285px;
+    height: 370px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.sk_goods{
+    padding: 5px 20px;
+    border-bottom: 1px solid #ededed;
+}
+
+.sk_goods img{
+    width: 210px;
+    height: 210px;
+    margin-bottom: 10px;
+}
+
+.sk_goods h5{
+    /*文本将保持在一行上，并且不会自动换行到下一行。*/
+    white-space: nowrap;
+    overflow: hidden;
+    /*在文本溢出时显示省略号*/
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.sk_goods h4{
+    color: #c60012;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.price{
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.price h2{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    color:#e01222;
+    margin-right: 5px;
+}
+
+.price h4{
+    display: inline-block;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+
+.bar{
+    display: inline-block;
+    width: 80px;
+    height: 8px;
+    line-height: 7px;
+    border-radius: 8px;
+    background-color: #e6e6e6;
+    margin-left: 10px;
+}
+
+.bar_in{
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    border-radius: 8px;
+    background-color: #df0021;
+}
+
+.buy{
+    display: inline-block;
+}
+
+.buy button{
+    padding: 7px;
+    background-color: #df0021;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+aside{
+    position: fixed;
+    right: 0;
+    top: 200px;
+    text-align: center;
+}
+
+.top a::before{
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    content: '\e904';
+    font-family: 'icomoon';
+}
+
+.top a{
+    display: inline-block;
+    width: 53px;
+    height: 53px;
+    background-color: #e01d22;
+    color: #fff;
+    line-height: 53px;
+}
+
+.phone{
+    margin-top: 10px;
+    width: 53px;
+    height: 56px;
+    background-color: #e01d22;
+}
+
+.phone>img{
+    padding-top: 5px;
+}
+
+.erweima img{
+    display: none;
+    position: fixed;
+    right: 70px;
+    top: 250px;
+    border:3px solid #ff1943;
+    width: 100px;
+    height: 100px;
+}
+
+.erweima i{
+    display: none;
+    position: fixed;
+    right: 55px;
+    top: 280px;
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-left-color: #ff1943;
+}
+
+.phone:hover .erweima img{
+    display: block;
+}
+
+.phone:hover .erweima i{
+    display: block;
+}
+
+

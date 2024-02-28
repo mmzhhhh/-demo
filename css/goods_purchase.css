@@ -1,0 +1,339 @@
+.search input{
+    width: 375px;
+}
+
+.search button:nth-of-type(1){
+    background-color: #474e5c;
+}
+
+/*购买模块主题制作*/
+.purchase_box{
+    overflow: hidden;
+    height: 600px;
+    background-color: #e4393c;
+    margin-bottom: 20px;
+}
+
+.white_box{
+    width: 1180px;
+    height: 600px;
+    margin: 50px 10px auto 10px;
+    background-color: #fff;
+}
+
+.goods_img{
+    float: left;
+    margin-top: 22px;
+    width: 362px;
+    height: 429px;
+    text-align: center;
+}
+
+.preview_img{
+    position: relative;
+}
+
+.mask{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    background-color: #FEDE4F;
+    opacity: .5;
+    border: 1px solid #ccc;
+    cursor: move;
+}
+
+.big{
+    display: none;
+    position: absolute;
+    left: 410px;
+    top: 0;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.big img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+}
+
+.good_intro{
+    overflow: hidden;
+    float: left;
+    width: 545px;
+    height: 429px;
+    margin:22px 20px 0 30px;
+}
+
+.goods_store{
+    float: left;
+    width: 214px;
+    height: 429px;
+    margin-top: 22px;
+}
+
+/*选择所有具有类名为 goods_img 的元素下的直接子级（子元素）中的 img 元素。*/
+/*这种选择器是一个相对严格的选择器，只会匹配直接子元素，而不会匹配更深层次的后代元素。*/
+.goods_img>img{
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    border: 1px solid #e3e4e5;
+    margin-bottom: 5px;
+}
+
+.goods_img ul li{
+    float: left;
+    width: 66px;
+    height: 66px;
+    padding-left: 5px;
+    margin-right: 5px;
+}
+
+.goods_img ul li img{
+    overflow: hidden;
+    width: 66px;
+    height: 66px;
+}
+
+.now_price{
+    float: left;
+}
+
+.diliver{
+    float: left;
+    width: 1px;
+    height: 40px;
+    margin-top: 15px;
+    border-left: 1px dotted #f0f0f0;
+}
+
+.btn_toshop{
+    float: left;
+}
+
+.good_intro h2{
+    font-size: 22px;
+    font-weight: 400;
+    color: #333;
+}
+
+.good_intro>h5{
+    margin: 16px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #e1323f;
+}
+
+.good_intro>span{
+
+    margin: 0 5px;
+    font-size: 14px;
+    background-color: #e1323f;
+    color: #fff;
+}
+
+.intro_price{
+    height: 50px;
+    margin-top: 15px;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+}
+
+.now_price{
+    width: 380px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+.now_price span:first-child{
+    padding-right: 20px;
+    color: #999;
+    font-size: 14px;
+}
+
+.now_price span:last-child{
+    font-size: 22px;
+    color: #e4393c;
+}
+
+.all_spead{
+    float: left;
+    width: 100px;
+}
+
+.all_spead h5{
+    font-weight: 400;
+    font-size: 14px;
+    color: #999;
+    padding-top: 5px;
+}
+
+.all_spead span{
+    font-size: 14px;
+    color: #005aa0;
+}
+
+.all_sale h5{
+    font-weight: 400;
+    font-size: 14px;
+    color: #999;
+    padding-top: 5px;
+}
+
+.all_sale span{
+    font-size: 14px;
+    color: #005aa0;
+}
+
+.intro_choose{
+    margin-top: 15px;
+    overflow: hidden;
+    clear: both;
+}
+
+.choose_left{
+    color: #999;
+    float: left;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.choose_right ul li:hover{
+    cursor: pointer;
+}
+
+.choose_right ul li{
+    float: left;
+    margin-right: 10px;
+    padding: 3px;
+    border: 1px solid #ededed;
+}
+
+.buy_toshopcut{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.buy_toshopcut button{
+    margin-right: 40px;
+    padding: 5px 10px;
+    background-color: #df3033;
+    color: #fff;
+    font-size: 18px;
+}
+
+.intro_com{
+    margin-top: 35px;
+    height: 55px;
+}
+
+.coms_rate{
+    float: left;
+}
+
+.coms_rate>h5{
+    font-weight: 400;
+    font-size: 12px;
+    color: #a0a0a0;
+}
+
+.coms_rate>h3{
+    font-weight: 400;
+    font-size: 18px;
+    color: #e1323f;
+}
+
+.coms_diliver{
+    float: left;
+    width: 1px;
+    height: 50px;
+    border-left: 1px dotted #f0f0f0;
+    margin: 8px 20px 0 15px;
+}
+
+.coms_pos{
+    float: left;
+}
+
+.coms_pos ul li{
+    float: left;
+    margin: 15px 10px;
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+}
+
+.goods_store{
+    text-align: center;
+}
+
+.goods_store>h3{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #999;
+}
+
+.goods_store>img{
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.more_goods ul li{
+    margin-bottom: 10px;
+}
+
+.more_goods>img{
+    width: 160px;
+    height: 160px;
+}
+
+.more_goods h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    /*CSS属性white-space的值nowrap用于指定元素内的文本内容在达到包含框边缘时不换行。*/
+    white-space: nowrap;
+    overflow: hidden;
+    /*文本溢出时截断文本，并以省略号显示*/
+    text-overflow: ellipsis;
+}
+
+.more_goods span{
+    color: #c81623;
+}
+
+
+.enter_store{
+    margin: 20px auto 0;
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #e21c19;
+    border: 2px solid #e1323f;
+    border-radius: 7px;
+}
+
+.enter_store::before{
+    content: '\e907';
+    font-family: 'icomoon';
+    padding-right: 6px;
+}
+
+.enter_store a{
+    color: #e21c19;
+}
+
+.click_img{
+    border: 1px solid #e3575e !important;
+}

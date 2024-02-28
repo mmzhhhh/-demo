@@ -1,0 +1,140 @@
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    padding-top: 20px;
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: left;
+    padding-left: 15px;
+}
+
+.reg_hd{
+    background-color: #ececec;
+    margin-top: 22px;
+    border:1px solid #dfdfdf;
+    height: 42px;
+}
+
+.reg_hd ul li:first-child{
+    float: left;
+    padding-left:13px;
+    line-height: 42px;
+    font-size: 18px;
+    color: #333;
+}
+
+.reg_hd ul li:last-child{
+    float: right;
+    line-height: 42px;
+    padding-right: 14px;
+}
+
+.reg_hd ul li:last-child a{
+    color: #c81623;
+}
+
+.reg_bigbox{
+    height: 400px;
+    width: 1200px;
+    border: 1px solid #dfdfdf;
+    /*设置元素顶部边框的颜色为透明。*/
+    border-top-color: transparent;
+}
+
+form{
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+form ul li{
+    margin-bottom: 20px;
+}
+
+form ul li label{
+    width: 150px;
+    display: inline-block;;
+    text-align: right;
+}
+
+form ul li input{
+    width: 210px;
+    border: 1px solid #999999;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 10px;
+}
+
+form ul li span{
+    display: inline-block;
+    height: 20px;
+    color: #1296db;
+    padding-left: 24px;
+    font-size: 12px;
+    background: url(../images/alert.png) no-repeat;
+}
+
+form ul li:nth-child(5){
+    padding-top: 15px;
+    padding-left: 148px;
+}
+
+form ul li:nth-child(5) input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+}
+
+form ul li:nth-child(5) label{
+    width: 250px;
+    text-align: left;
+    padding-left: 8px;
+}
+
+form ul li:nth-child(5) a{
+    color: #1ba1e6;
+}
+
+form ul li:nth-child(6){
+    width: 210px;
+    padding-left: 150px;
+    margin-bottom: 20px;
+}
+
+form ul li:last-child input{
+    margin-right: 10px;
+    background-color: #ca111a;
+    border-width: 0;
+    font-size: 14px;
+    color: #fff;
+}
+
+.mod_copyright{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.mod_copyright .links{
+    margin-bottom: 18px;
+}
+
+.wrong{
+    color: red;
+    background-image: url(../images/error.png);
+}
+
+.right{
+    background-image: url(../images/right.png);
+}
+
